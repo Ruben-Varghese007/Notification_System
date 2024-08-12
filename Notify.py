@@ -6,7 +6,7 @@ def notifyMe(name,message):
     toast = Notification(app_id="Windows App",
                          title="New Notification!",
                          msg=message,
-                         icon="D:\Internship\TechSnap\Logo\icon.png")
+                         icon="file_location")
     toast.set_audio(audio.Default,loop = False)
     toast.show()
 
